@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   let ENV = {
-    modulePrefix: 'junk-app',
+    modulePrefix: 'ember-electron-inspector-bug-repro',
     environment,
     rootURL: '/',
     locationType: 'auto',

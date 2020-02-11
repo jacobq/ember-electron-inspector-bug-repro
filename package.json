@@ -1,11 +1,9 @@
 {
-  "name": "junk-app",
+  "name": "ember-electron-inspector-bug-repro",
   "version": "0.0.0",
-  "private": true,
-  "description": "Small description for junk-app goes here",
-  "repository": "",
+  "description": "Just a simple repo to reproduce a bug related to the inspector",
+  "repository": "git@github.com:jacobq/ember-electron-inspector-bug-repro.git",
   "license": "MIT",
-  "author": "",
   "directories": {
     "doc": "doc",
     "test": "tests"

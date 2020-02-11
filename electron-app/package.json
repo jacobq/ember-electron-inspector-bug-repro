@@ -1,8 +1,7 @@
 {
-  "name": "junk-app",
-  "productName": "junk-app",
+  "name": "ember-electron-inspector-bug-repro",
+  "productName": "ember-electron-inspector-bug-repro",
   "version": "0.0.0",
-  "description": "Small description for junk-app goes here",
   "main": "src/index.js",
   "scripts": {
     "start": "electron-forge start",
@@ -11,8 +10,6 @@
     "publish": "electron-forge publish",
     "lint": "echo \"No linting configured\""
   },
-  "keywords": [],
-  "author": "",
   "license": "MIT",
   "config": {
     "forge": {
@@ -22,28 +19,7 @@
           "/tests(/|$)"
         ]
       },
-      "makers": [
-        {
-          "name": "@electron-forge/maker-squirrel",
-          "config": {
-            "name": "junk_app"
-          }
-        },
-        {
-          "name": "@electron-forge/maker-zip",
-          "platforms": [
-            "darwin"
-          ]
-        },
-        {
-          "name": "@electron-forge/maker-deb",
-          "config": {}
-        },
-        {
-          "name": "@electron-forge/maker-rpm",
-          "config": {}
-        }
-      ]
+      "makers": []
     }
   },
   "dependencies": {
